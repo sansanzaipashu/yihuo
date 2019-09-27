@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/Home_Recommend.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1433548_1joperyukp5i.css">
+    <link rel="stylesheet" type="text/css" href="css/swipeslider.css">
+    <title>首页-推荐</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">首页</a></li>
+                <li><a href="#">推荐</a></li>
+                <li><a href="#">VIP专区</a></li>
+                <li><a href="#">水彩</a></li>
+                <li><a href="#">素描</a></li>
+                <li><a href="#">彩铅</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="body-main">
+        <!-- 搜索框 -->
+        <div class="search-bg">
+            <span class="iconfont icon-552dc065f0478"></span>
+            <div>
+               <span class="iconfont icon-fangdajing"></span>
+                <input type="text" name="" id=""> 
+            </div>
+            <span class="iconfont icon-lingdang"></span>
+        </div>
+        
+        <div class="banner-bg">
+            <div class="bg-ban"></div>
+            <div class="banner">
+                <section>
+                    <figure id="full_feature" class="swipslider">
+                            <ul class="sw-slides">
+                                <li class="sw-slide">
+                                    <img src="img/banner.jpg" alt="Summer beach concept">
+                                </li>
+                                <li class="sw-slide">
+                                    <img src="img/banner.jpg"  alt="Lang from Yie Ar Kung Fu">
+                                </li>
+                                <li class="sw-slide">
+                                    <img src="img/banner.jpg"  alt="Tiny Tina">
+                                </li>
+                                <li class="sw-slide">
+                                    <img src="img/banner.jpg"  alt="Tiny Tina from Borderlands 2">
+                                </li>
+                                <li class="sw-slide">
+                                    <img src="img/banner.jpg"  alt="Redhead girl">
+                                </li>
+                            </ul>
+                        </figure>
+                </section>
+            </div>
+        </div>
+    </section>
+    <footer>
+        
+    </footer>
+    <script src="js/jquery-1.11.0.js"></script>
+    <script type="text/javascript" src="js/swipeslider.js"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+             $('#full_feature').swipeslider();
+        })
+    </script>
+</body>
+</html>
