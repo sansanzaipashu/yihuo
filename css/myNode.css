@@ -1,0 +1,120 @@
+body{
+	background: #EEEEEE;
+}
+/*content-top*/
+.content .content-top{
+	width: 100%;
+	height: 0.74rem;
+	line-height: 0.74rem;
+}
+.content .content-top p{
+	display: inline;
+	font-size: 0.24rem;
+	color: #333333;
+}
+.content .content-top p:nth-child(1){
+	margin-left: 0.24rem;
+}
+.content .content-top p:nth-child(2){
+	margin-left: 0.30rem;
+}
+.content .content-top p:nth-child(3){
+	margin-left: 2.52rem;
+	font-family:PingFang SC;
+}
+
+/*content-jilu*/
+.content-jilu{
+	background:white ;
+	width: 7.02rem;
+	height: 4.36rem;
+	margin-left: 0.24rem;
+	border-radius: 0.16rem;
+	border:1px #979797 solid;
+}
+.content-jilu>p{
+	height: 0.54rem;
+	border-bottom: 1px solid #979797;
+	font-size: 0.24rem;
+	color: #666;
+	line-height: 0.54rem;
+	text-indent: 0.2rem;
+}
+.content-jilu div p{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height:3.4rem;
+	color: #666666;
+	font-size: 0.24rem;
+}
+/*我的笔记*/
+.content-biji,.content-liulan{
+	width: 100%;
+	height: 0.7rem;
+	background: #fff;
+	line-height: 0.7rem;
+	margin-top: 0.18rem;
+}
+.content-biji p:first-child,.content-liulan p:first-child{
+	display: inline;
+	width:1.12rem;
+	height:0.40rem;
+	font-size:0.28rem;
+	font-family:PingFang SC;
+	font-weight:400;
+	color:rgba(51,51,51,1);
+	float: left;
+	margin-left: 0.2rem;
+}
+.content-biji p:last-child,.content-liulan p:last-child{
+	display: inline;
+	width:1.5rem;
+	height:100%;
+	font-size:0.2rem;
+	font-family:PingFang SC;
+	font-weight:400;
+	line-height:28px;
+	color:rgba(51,51,51,1);
+	float: left;
+	margin-left: 4.5rem;
+	line-height: 0.7rem;
+	
+}
+.content-biji .iconfont,.content-liulan .iconfont{
+	width:16px;
+	height:26px;
+}
+/*按钮*/
+.btn{
+	width:1.3rem;
+	height:0.6rem;
+	background:rgba(255,255,255,1);
+	border-radius:0.12rem;
+	margin-left: 5.96rem;
+	margin-top: 0.2rem;
+	margin-bottom: 0.2rem;
+	line-height: 0.6rem;
+	color: #333;
+	font-size: 0.24rem;
+	text-align: center;
+	outline: 0;
+	border: 0;
+}
+
+/*分类*/
+.content-fenlei{
+	width: 100%;
+	background: #fff;
+	line-height: 0.7rem;
+	color: #333;
+	font-size: 0.24rem;
+}
+.content-fenlei p{
+	height: 0.7rem;
+	margin-left: 0.24rem;
+	
+}
+
+
+

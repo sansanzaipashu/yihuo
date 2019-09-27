@@ -1,0 +1,22 @@
+/* footer */
+.footer{
+	width: 100%;
+	height:0.98rem;
+	background: #fff;
+}
+
+.footer ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+.footer ul li{
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.footer ul li:nth-child(3){
+	color: #EEC14F;
+}
