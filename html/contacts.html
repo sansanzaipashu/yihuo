@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" href="../css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="../css/contacts.css" />
+		<link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/font_1433548_1joperyukp5i.css" />
+		<style type="text/css">
+			.head {
+				height: 1.16rem;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<header class="header">
+			<div class="head">
+				<span class="iconfont icon-dayuhao"></span>
+				<h3>选择联系人</h3>
+			</div>
+		</header>
+
+		<section class="content">
+			<input type="text" placeholder="搜索用户艺伙号或昵称" id="txt" />
+			<div>
+				<span class="iconfont icon-add-fill"></span>
+				<em>添加好友</em>
+				<span class="iconfont icon-xiaoyuhao-down-copy"></span>
+			</div>
+			<p>L</p>
+		</section>
+		<!--footer-->
+
+		<footer class="footer">
+			<ul id="list">
+				<li pinyin="bj" cityname="北京">
+					<img src="https://c-ssl.duitang.com/uploads/item/201810/06/20181006225842_dbhxp.jpg" />
+					<figure>
+						<figcaption>李魁正</figcaption>
+						<p>308709</p>
+					</figure>
+				</li>
+				<li pinyin="dl" cityname="大连">
+					<img src="https://c-ssl.duitang.com/uploads/item/201810/06/20181006225842_dbhxp.jpg" />
+					<figure>
+						<figcaption>大连</figcaption>
+						<p>308709</p>
+					</figure>
+				</li>
+			</ul>
+		</footer>
+		<script src="../js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function() {
+							document.getElementById("txt").oninput = function() {
+								var val = $(this).val();
+								$("#list li").css("display","none");
+								
+								console.log($("figcaption"))
+								for(var i=0;i<$("#list li").length;i++){
+									if($("#txt").val()==$("figcaption").eq(i).val()){
+										$("#list li").eq(i).css("display","block");
+										
+									}
+								}
+							}
+						})
+//			function searchCity() {
+//				var searchCityName = $("#txt").val();
+//				if(searchCityName == "") {
+//					$("#list li").show();
+//				} else {
+//					$("#list li").each(
+//						function() {
+//							var pinyin = $(this).attr("pinyin");
+//							var cityName = $(this).attr("cityName");
+//							if(pinyin.contains(searchCityName) != -1 ||
+//								cityName.indexOf(searchCityName) != -1) {
+//								$(this).show();
+//							} else {
+//								$(this).hide();
+//							}
+//						});
+//				}
+//			}
+//
+//			$('#txt').bind('input propertychange', function() {
+//
+//				searchCity();
+//			});
+		</script>
+	</body>
+
+</html>

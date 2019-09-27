@@ -1,0 +1,103 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-size: 13.3333vw;
+}
+
+/*header*/
+.header{
+	height: 1.16rem;
+	background: #4A4942;	
+	overflow: hidden;
+}
+.head{
+	margin-top: 0.58rem;
+}
+.head>.icon-dayuhao{
+	font-size: 0.42rem;
+	color: #EEC14F;
+	
+	
+}
+.head>h3{
+	color: #EEC14F;
+	display: inline;
+	margin-left: 2.48rem;
+	font-size: 0.32rem;
+}
+
+/*section*/
+.content{
+	min-height: 1rem;
+	background: #D8D8D8;
+	overflow: hidden;
+}
+.content>input{
+	width:7.02rem;
+	height: 0.6rem;
+	border: solid 2px #999999;
+	border-radius: 0.16rem;
+	background: #FFFFFF;
+	margin-left: 0.24rem;
+	margin-top: 0.12rem;
+	
+}
+ input::-ms-input-placeholder {
+          text-align: center;
+          color:#D8D8D8;
+        }
+input::-webkit-input-placeholder {
+          text-align: center;
+          color:#D8D8D8;
+        }
+.content>div{
+	height: 0.56rem;
+	background: #FFFFFF;
+	margin-top: 0.1rem;
+}
+.content>div .icon-add-fill{
+	font-size: 0.36rem;
+	color: #EEC14F;
+	margin:0.1rem 0.2rem 0.1rem 0.3rem;
+}
+.content>div .icon-xiaoyuhao-down-copy{
+	margin-left: 5.2rem;
+	font-size: 0.18rem;
+	color: #000000;
+}
+.content>div>em{
+	font-size: 0.24rem;
+	color: #333333;
+}
+.content>p{
+	width: 0.44rem;
+	font-size: 0.24rem;
+	text-align: center;
+	
+}
+
+/*footer*/
+.footer>ul{
+	margin: 0 0.24rem;
+}
+.footer>ul>li{
+	display: flex;
+	height: 0.76rem;
+	border-bottom: solid 1px #D8D8D8;
+}
+
+.footer>ul>li>img{
+	width: 0.56rem;
+	height: 0.56rem;
+	border-radius: 50%;
+	margin-top: 0.1rem;
+}
+.footer>ul>li>figure{
+	margin-top: 0.1rem;
+	font-size: 0.2rem;
+	color: #333333;
+	margin-left: 0.1rem;
+}
+
