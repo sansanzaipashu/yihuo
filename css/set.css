@@ -1,0 +1,191 @@
+html{font-size: 13.3333vw;}
+html,body{height: 100%;}
+body{display: flex;flex-direction: column;}
+
+/* header */
+.head{
+	   width: 100%;
+	   display: flex;
+	   flex-direction: column;
+	   overflow: hidden;
+	   box-sizing: border-box;
+	   height: 1.16rem;
+	   
+	   background:rgba(74,73,66,1);
+}
+.tit{
+     height: 1.16rem;
+     display: flex;
+     align-items: flex-end;
+     justify-content: space-between;
+     padding: 0.16rem;
+}
+.tit li{
+	display: block;
+	color: #EEC14F;
+	line-height: 0.35rem;
+	text-align: center;
+}
+.tit li p{
+	font-size: 0.32rem;
+}
+/* section */
+.content{
+	flex: 1;
+	background: #EEEEEE;
+	overflow-y: auto;
+}
+.content p{
+	font-size: 0.28rem;
+}
+.kong1{
+	height: 0.2rem;
+    background: #EEEEEE;
+}
+.zhang{
+	height: 0.76rem;
+	width: 7.5rem;
+	display: flex;
+	line-height: 1;
+	background: #FFFFFF;
+	border-bottom: solid 1px #efeff4;
+	justify-content: space-around;
+}
+.zhang ul{
+	height: 0.76rem;
+	width: 3.5rem;
+	display: flex;
+	line-height: 0.76rem;
+}
+.zhang .only{
+	justify-content: flex-end;
+}
+.zhang1{
+	height: 0.76rem;
+	width: 7.5rem;
+	display: flex;
+	line-height: 1;
+	background: #FFFFFF;
+	border-bottom: solid 1px #efeff4;
+	justify-content: space-around;
+}
+.zhang1 ul{
+	height: 0.76rem;
+	width: 3.5rem;
+	display: flex;
+	line-height: 0.76rem;
+}
+.zhang1 .only1{
+	justify-content: flex-end;
+}
+/*修改密码*/
+.xiu{
+	height: 0.76rem;
+	width: 7.5rem;
+	display: flex;
+	line-height: 1;
+	background: #FFFFFF;
+	border-bottom: solid 1px #efeff4;
+	justify-content: space-around;
+}
+.xiu ul{
+	height: 0.76rem;
+	width: 3.5rem;
+	display: flex;
+	line-height: 0.76rem;
+}
+.xiu .copy-1{
+	justify-content: flex-end;
+}
+/*清除课件*/
+.qing{
+	height: 0.76rem;
+	width: 7.5rem;
+	display: flex;
+	line-height: 1;
+	background: #FFFFFF;
+	border-bottom: solid 1px #efeff4;
+	justify-content: space-around;
+}
+.qing ul{
+	height: 0.76rem;
+	width: 3.5rem;
+	display: flex;
+	line-height: 0.76rem;
+}
+.qing .qing-1{
+	justify-content: flex-end;
+}
+/*清除缓存*/
+.huan{
+	height: 0.76rem;
+	width: 7.5rem;
+	display: flex;
+	line-height: 1;
+	background: #FFFFFF;
+	border-bottom: solid 1px #efeff4;
+	justify-content: space-around;
+}
+.huan ul{
+	height: 0.76rem;
+	width: 3.5rem;
+	display: flex;
+	line-height: 0.76rem;
+}
+.huan .huan1{
+	justify-content: flex-end;
+}
+/*关于我们*/
+.yu{
+	height: 0.76rem;
+	width: 7.5rem;
+	display: flex;
+	line-height: 1;
+	background: #FFFFFF;
+	border-bottom: solid 1px #efeff4;
+	justify-content: space-around;
+}
+.yu ul{
+	height: 0.76rem;
+	width: 3.5rem;
+	display: flex;
+	line-height: 0.76rem;
+}
+.yu .yu1{
+	justify-content: flex-end;
+}
+
+.kong2{
+	height: 0.3rem;
+    background: #EEEEEE;
+}
+.zhang2{
+	height: 0.7rem;
+	/*width: 7.5rem;*/
+	display: flex;
+	background: #FFFFFF;
+	line-height: 0.7rem;
+	justify-content: space-around;
+}
+.zhang2 ul{
+	height: 0.7rem;
+	display: flex;
+	line-height: 0.7rem;
+}
+.hui{
+    background: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

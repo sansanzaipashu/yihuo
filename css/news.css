@@ -1,0 +1,123 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	height: 100%;
+}
+html{
+	font-size: 13.3333vw;
+}
+/* 头部 */
+#head{
+	width: 100%;
+	height: 1.16rem;
+	background:rgba(74,73,66,1);
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+#head .iconfont{
+	font-size:0.32rem;
+	color: #eec14f;
+	margin: 0.24rem; 
+}
+header div{
+	height: 0.44rem;
+	width: 0.64rem;
+	font-size: 0.32rem;
+	text-align: center;
+	line-height: 0.44rem;
+	color: #eec14f;
+	margin: 0.14rem;
+}
+
+/* 体部 */
+#content{
+	width: 100%;
+	height: 100%rem;
+	background: #fff;
+	flex: 1;
+	overflow-y: auto;
+}
+/* 体部导航 */
+.news-nav ul{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: #fff;
+	border-bottom: solid 1px #333;
+}
+.news-nav ul li a{
+	display: block;
+	height: 0.7rem;
+	width: 2rem;
+	font-size: 0.28rem;
+	color: #333;
+	line-height: 0.7rem;
+	text-align: center;
+}
+.news-nav ul li:last-child a{
+	color: #eec14f;
+}
+.news-nav ul span{
+	height: 0.28rem;
+	width: 1px;
+	background: #333;
+}
+/* 体部信息 */
+#content-news{
+	height: 11.48rem;
+	overflow-y: auto;
+}
+.news{
+	height: 1.2rem;
+	width: 100%;
+	border-bottom: solid 1px #333;
+	padding: 0.18rem;
+	box-sizing: border-box;
+}
+.news .touxiang{
+	height: 0.84rem;
+	width: 0.84rem;
+	border-radius: 50%;
+	overflow: hidden;
+	float: left;
+}
+.news .touxiang img{
+	height: 0.84rem;
+	width: 0.84rem;
+}
+.news-right{
+	float: left;
+	margin-left: 0.2rem;
+	width: 5.97rem;
+}
+.right-left{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 0.84rem;
+	float: left;
+}
+.right-left .news-name{
+	font-size: 0.28rem;
+	color: #333;
+	line-height: 0.4rem;
+}
+.right-left .news-news{
+	font-size: 0.24rem;
+	line-height: 0.34rem;
+	color: #333;
+}
+
+.news-time{
+	float: right;
+	font-size: 0.24rem;
+	line-height: 0.7rem;
+}
+
+
+
+

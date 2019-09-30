@@ -1,0 +1,60 @@
+.xiaoyu{
+	font-size:0.42rem;
+	display: inline-block;
+	margin-top:0.58rem;
+	margin-left:0.24rem;
+	margin-right:0.12rem;
+	color:#EEC14F;
+}
+.yijian{
+	font-size:0.32rem;
+	color:#EEC14F;
+	margin-top:0.58rem;
+	display: inline-block;
+	margin-left:2.46rem;
+}
+.txt{
+	text-align: center;
+	
+	
+}
+.quesion{
+	outline: 0;
+	width:7.02rem;
+	padding-left:0.24rem;
+	margin-top:0.2rem;
+	min-height:4.36rem;
+	background:#fff;
+	font-size:;
+	color:#666;
+	font-size:0.28rem;
+	line-height: 0.4rem;
+	border:2px solid rgba(151,151,151,1);
+	border-radius:0.16rem;
+	
+}
+.email{
+	outline: 0;
+	width:7.02rem;
+	height:0.68rem;
+	margin-top:0.3rem;
+	font-size:0.28rem;
+	color:#666;
+	line-height: 0.4rem;
+	padding-left:0.24rem;
+	border:2px solid rgba(151,151,151,1);
+	border-radius:0.16rem;
+	
+}
+.sub{
+	width:7.3rem;
+	height:0.68rem;
+	border:2px solid rgba(151,151,151,1);
+	border-radius:0.16rem;
+	font-size:0.28rem;
+	color:#333;
+	line-height: 0.4rem;
+	margin-top:0.3rem;
+	background:#fff;
+	
+}

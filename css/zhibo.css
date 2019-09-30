@@ -1,0 +1,98 @@
+.tou{
+	margin-top:0.46rem;
+}
+.xyu{
+	
+	display: inline-block;
+	margin-top:0.12rem;
+	margin-left:0.24rem;
+	margin-right:0.12rem;
+	color:#EEC14F;
+}
+.xyu span{
+	font-size:0.42rem;
+}
+.shipin{
+	font-size:0.32rem;
+	line-height:0.44rem;
+	color:#EEC14F;
+	text-align: center;
+	display:inline-block;
+	margin-left:2.48rem;
+}
+.tab{
+	width:100%;
+	height:0.7rem;
+	display: flex;
+	justify-content: space-around;
+	border:solid 2px #D8D8D8;
+}
+.tab li{
+	font-size:0.28rem;
+	line-height:0.7rem;
+	letter-spacing: 0.48rem;
+	width:50%;
+	text-align: center;
+	height:0.7rem;
+}
+.tab .hover{
+	color:#EEC14F;
+	border-bottom: solid 2px #EEC14F;
+}
+.content_one{
+	width:7.02rem;
+	height:4.14rem;
+	border-radius: 0.16rem;
+	/*background:red;*/
+	margin-top:0.2rem;
+	margin-left:0.24rem;
+}
+.tupian{
+	width:7.02rem;
+	height:3.18rem;
+	background:salmon;
+	border-radius:0.16rem 0.16rem 0 0;	
+}
+.txt{
+	width:7.02rem;
+	height:0.96rem;
+	background:#D8D8D8;
+	border-radius:0 0 0.16rem 0.16rem;
+	display: flex;
+}
+.pic{
+	width:0.72rem;
+	height:0.72rem;
+	border-radius: 50%;
+	background:yellow;
+	margin-left:0.16rem;
+	margin-top:0.12rem;
+}
+.wenzi{
+	margin-left:0.1rem;
+}
+.youhua{
+	font-size:0.24rem;
+	color:#333;
+	line-height:0.34rem;
+	margin-top:0.14rem;
+	margin-bottom: 0.1rem;
+}
+.time{
+	font-size:0.2rem;
+	color:#EEC14F;
+	line-height:0.28rem;
+}
+.liulan{
+	margin-left:1.62rem;
+	font-size:0.16rem;
+	color:#333;
+	line-height:0.22rem;
+	margin-top:0.62rem;
+}
+.neirong li{
+	display: none;
+}
+.neirong .show{
+	display: block;
+}

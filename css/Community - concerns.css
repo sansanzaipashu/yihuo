@@ -1,0 +1,171 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	height: 100%;
+}
+html{
+	font-size: 13.3333vw;
+}
+body{
+    display: flex;
+	flex-direction: column;
+}
+/* 头部 */
+#head{
+    height: 1.16rem;
+    width: 100%;
+    background: #4a4942;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+#head div{
+    font-size: 0.32rem;
+    color: #fff;
+    line-height: 0.46rem;
+    border-bottom: 2px solid #fff; 
+    margin: 0.1rem;
+}
+#head div:nth-child(2){
+    font-size: 0.32rem;
+    color: #eec14f;
+    line-height: 0.46rem;
+    border-bottom: 2px solid #eec14f; 
+    margin: 0.1rem;
+}
+#head #fangdajing{
+    font-size: 0.44rem;
+    color: #eec14f;
+    margin: 0.18rem;
+}
+/* 体部 */
+#content{
+    flex:1;
+    overflow-y: auto;
+}
+#content .title-one{
+    display: block;
+    border-left: solid 3px #eec14f;
+    font-size: 0.28rem;
+    line-height: 0.4rem;
+    color: #333;
+    text-indent: 5px;
+    margin: 0.24rem;
+}
+#content .people{
+    margin: 0.24rem;
+    overflow: hidden;
+}
+#content .people div{
+    float: left;
+    margin-right: 0.4rem;
+}
+#content .people div:nth-child(4){
+    float: left;
+    margin-right:0;
+}
+#content .people div img{
+    width: 1.42rem;
+    height: 1.42rem;
+    border-radius: 0.1rem;
+}
+#content .people div h4{
+    display:block;
+    width: 1.42rem;
+    font-size: 0.2rem;
+    line-height: 0.28rem;
+    text-align: center;
+    color: #333;
+}
+#content .people div p{
+    display: block;
+    width: 1.42rem;
+    font-size: 0.1rem;
+    line-height: 0.22rem;
+    text-align: center;
+    color: #333;
+}
+#content .biglogo{
+    width: 7.02rem;
+    height: 1.54rem;
+    border-radius: 0.2rem;
+    margin: 0.24rem auto;
+}
+#content .title-two{
+    display: block;
+    border-left: solid 3px #eec14f;
+    font-size: 0.28rem;
+    line-height: 0.4rem;
+    color: #333;
+    text-indent: 5px;
+    margin: 0.24rem;
+    overflow: hidden;
+}
+#content .newfabu{
+    width: 7.02rem;
+    margin: 0.24rem auto;
+    border: solid 1px #d8d8d8;
+    border-radius: 0.2rem;
+}
+#content .newfabu .newfabu-tab{
+    width: 7.02rem;
+    height: 1.16rem;
+}
+#content .newfabu .newfabu-tab img{
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    margin: 0.14rem;
+    float: left;
+}
+#content .newfabu .newfabu-tab .newfabu-tab-title{
+    float: left;
+    margin: 0.14rem;
+}
+#content .newfabu .newfabu-tab .newfabu-tab-title h4{
+    font-size: 0.22rem;
+    line-height: 0.32rem;
+    color: #333;
+    display: inline;
+}
+#content .newfabu .newfabu-tab .newfabu-tab-title p{
+    font-size: 0.22rem;
+    line-height: 0.32rem;
+    margin-top:0.1rem;
+    color: #333; 
+}
+#content .newfabu img{
+    height: 5.80rem;
+    width: 7.02rem;
+}
+/* 尾部 */
+#foot{
+    height: 0.98rem;
+    width: 100%;
+    background: #4a4942;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#foot div span{
+    font-size: 0.43rem;
+    color: #fff;
+}
+#foot div:nth-child(3) span{
+    font-size: 0.43rem;
+    color: #eec14f;
+}
+#foot div p{
+    font-size: 0.24rem;
+    color: #fff;
+    line-height: 0.34rem;
+}
+#foot div:nth-child(3) p{
+    font-size: 0.24rem;
+    color: #eec14f;
+    line-height: 0.34rem;
+}
